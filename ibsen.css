@@ -1,0 +1,20 @@
+.speech{
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ color: black;
+}
+.direction{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: black;
+    background-color: rgb(113, 216, 134);
+}
+.direction:hover{
+    background-color: rgb(47, 101, 138);
+    color: white;
+}
+.HELMER{
+    color: rgb(250, 93, 93);
+}
+.NORA{
+    color: blue;
+}
