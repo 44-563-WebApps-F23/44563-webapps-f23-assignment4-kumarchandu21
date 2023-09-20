@@ -29,4 +29,10 @@ table{
 tr:nth-child(even) {
     background-color: #f2f2f2;
   }
-
+.HELMER:hover{
+    text-shadow: 1px 1px 13px #cc1a1a;
+}
+.NORA:hover{
+    text-shadow: 1px 1px 4px blue;
+    filter: blur(1px);
+}
