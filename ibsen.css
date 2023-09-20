@@ -18,3 +18,14 @@
 .NORA{
     color: blue;
 }
+table{
+    border: 10px solid;
+    border-color: rgb(82, 88, 158);
+    color: rgb(70, 147, 152);
+    text-align: center;
+    padding: 1px;
+    margin-left: right;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
