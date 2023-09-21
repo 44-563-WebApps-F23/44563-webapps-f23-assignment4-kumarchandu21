@@ -9,41 +9,55 @@
     background-color: rgb(113, 216, 134);
 }
 .direction:hover{
-    background-color: rgb(47, 101, 138);
+    background-color: rgb(47, 78, 98);
     color: white;
 }
+.name{
+    color: #15ff00;
+}
 .HELMER{
-    color: rgb(250, 93, 93);
+    color: rgb(255, 77, 0);
 }
 .NORA{
     color: blue;
+}
+.NURSE{
+    color: rgb(0, 255, 200);
 }
 table{
     border: 10px solid;
     border-color: rgb(82, 88, 158);
     color: rgb(70, 147, 152);
     text-align: center;
-    padding: 1px;
-    margin-left: right;
+    padding: 10px;
+    margin:10px;
+    
 }
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #c5baba;
   }
 .HELMER:hover{
-    text-shadow: 1px 3px  #cc1a1a;
+    text-shadow: 1px 3px  #15ff00;
     border: 1px solid;
-    /*filter: blur(1px);*/
+    filter: blur(1px);
+    background-color: rgb(158, 167, 174);
 }
 .NORA:hover{
-    text-shadow: 1px 1px 4px blue;
+    text-shadow: 2px 5px rgb(255, 0, 132);
     filter: blur(1px);
     border: 1px solid;
-    background-color: rgb(151, 151, 151);
+    background-color: rgb(170, 170, 170);
+}
+.NURSE:hover{
+    text-shadow: 1px 3px blue;
+    border: 1px solid;
+    filter: blur(1px);
+    background-color: rgb(172, 172, 172);
 }
 ul.horizontal-navbar li{
     
-    color: rgb(0, 0, 0);
-    background-color: rgb(141, 144, 145);
+    color: rgb(255, 255, 255);
+    background-color: rgb(231, 231, 231);
 }
 ul.horizontal-navbar a{
     display: block;
@@ -55,5 +69,12 @@ li{
 }
 
 li a:hover{
-    color: rgb(73, 122, 92);
+    color: rgb(78, 184, 140);
+}
+img{
+    display: block;
+    max-width: 30%;
+    max-height: 50%;
+    
+
 }
